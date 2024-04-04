@@ -1,0 +1,38 @@
+body{
+    background-image: url(../images/matriz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.divpri{
+    background-color: rgba(0, 0, 0, 0.811);
+    border: 5px solid red;
+    margin-left: 400px;
+    margin-right: 400px;
+
+    
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border: 5px solid white;
+    padding: 5px;
+    text-align: center;
+    margin-left: 80px;
+    background-color: black;
+
+  }
+  td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+  }
+  .prime {
+    background-color: skyblue;
+  }

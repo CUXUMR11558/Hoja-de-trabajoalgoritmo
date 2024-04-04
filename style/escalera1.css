@@ -1,0 +1,14 @@
+body{
+    background-image: url(../images/escalera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgba(255, 255, 255, 0.745);
+}

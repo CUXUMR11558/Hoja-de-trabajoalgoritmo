@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/damas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(8, 65px);
+    grid-template-rows: repeat(8, 65px);
+    margin-left: 500px;
+    margin-right: 487px;
+    border: 7px solid white;
+    box-shadow: 0 0 0 45px black;
+}
+.casilla {
+    width: 65px;
+    height: 65px;
+}
+.blanca {
+    background-color: #eee;
+}
+.negra {
+    background-color: #333;
+}
+.ficha {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 8px;
+}
+.blanca.ficha {
+    background-color: red;
+}
+.negra.ficha {
+    background-color: blue;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    font-family: cursive;
+    margin-top: 0.1px;
+}
